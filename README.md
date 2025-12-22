@@ -20,7 +20,12 @@ Key concepts include:
 - Root Mean Squared Error (RMSE)
 - Coefficient of determination (R^2)
 # Results 
-Results will be added after model training and evaluation
+- Linear Regression: RMSE is approx. 4.2, R^2 is approx. 0.14
+- Decision Tree and Random Forest models improved predictive performance
+- Attendence, prior acadiemic difficulties, and study-related beheviors were among the most influential features
+
+Feature importance analysis was condected using a Random Forest model with prior grades excluded to prevent data leakege.  
+
 ## Limitations 
 This project uses observational data, which may introduce bias and does not imply causation 
 ## Future IMprovments 
